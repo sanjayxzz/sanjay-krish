@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+
+<figure id = "figure">
+  <img src = "https://tse1.mm.bing.net/th?id=OIP.BZflXgPLOzJ2uDtMyyE5hwHaDF&pid=Api&P=0&h=180" alt= "google image">
+  <figcaption>google tech giant</figcaption>
+</figure>
+   <ul>
+    <li>angular</li>
+    <li>react</li>
+    <li>node</li>
+</ul>
+<ul>
+    <li>angular</li>
+    <li>react</li>
+    <li>node</li>
+</ul>
+<p class="para">google is the biggest company in the world.</p>
+<input type = "text">
+<script>
+//1// 
+document.getElementById("figure").style.border = '1 px solid red';
+//2//
+document.getElementsByTagName('ul')[1].style.border = '10px dotted green';
+//3//
+document.getElementsByClassName('para')[0].style.color = 'blue';
+//4//
+document.querySelector('ul li').style.color = 'red';
+
+document.querySelector('#figure img').style.padding = '20px';
+document.querySelector('#figure figcaption').style.padding = '20px'
+document.querySelector('figure img').style.width = '200px';
+
+//5//
+
+document.querySelectorAll('ul li')[0].style.color ='orange'
+document.querySelectorAll('ul li')[1].style.color ='purple'
+document.querySelectorAll('ul li')[2].style.color ='yellow'
+
+</script>
+  </body>
+</html>
